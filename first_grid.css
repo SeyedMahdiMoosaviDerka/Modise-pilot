@@ -1,0 +1,13 @@
+#content > #first_grid{
+    cursor: pointer;
+
+    width: 1000px;
+    height: 170px;
+
+    margin: auto;
+}
+
+#content > #first_grid > img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,213 @@
+
+
+
+
+
+
+
+.items > .big_menu > .sotoon {
+    /* border: 1px solid red; */
+
+    width: 240px;
+    height: 100%;
+
+    float: right;
+}
+
+.items > .big_menu > .sotoon > .point {
+    transition: 0.2s;
+    
+
+    width: 8px;
+    height: 8px;
+
+    background-color: red;
+
+    opacity: 0;
+    visibility: hidden;
+
+    position: relative;
+    right: -10px;
+    top: 30px;
+}
+
+.items:hover > .big_menu > .sotoon > .point {
+    transition: 0.5s;
+    transition-delay: 0.3s;
+
+    right: 10px;
+
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.items > .big_menu > .sotoon > h1 {
+    transition: 0.5s;
+
+    /* border: 1px solid red; */
+
+    font-size: 12px;
+    font-family: tahoma;
+
+    opacity: 0;
+    visibility: hidden;
+
+    width: 140px;
+    height: 20px;
+
+    padding: 0;
+    text-align: right;
+
+    position: relative;
+    right: 60px;
+    top: 3px;
+}
+
+.items:hover > .big_menu > .sotoon > h1 {
+    transition: 0.5s;
+    transition-delay: 0.5s;
+
+    right: 30px;
+
+    opacity: 0.8;
+    visibility: visible;
+}
+
+.items > .big_menu > .sotoon > p {
+    
+    /* border: 1px solid red; */
+
+    font-size: 13px;
+    text-align: right;
+    line-height: 5px;
+    height: 30px;
+
+    opacity: 0.7;
+
+    margin: 0;
+
+    position: relative;
+    right: 20px;
+    top: -20px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+
+/* .items > .big_menu > .sotoon > .p:hover {
+   transition: 0.5s;
+   transition-delay: 10s;
+
+    opacity: 0.7;
+    font-size: 14px;
+} */
+
+/* .items > .big_menu > .sotoon > .p1:hover {
+    transition: 0.5s;
+    transition-delay: 1s;
+} */
+
+.items:hover > .big_menu > .sotoon > .p {
+    
+    top: 15px;
+    right: 20px;
+
+    opacity: 0.7;
+    visibility: visible;
+}
+
+
+.items > .big_menu > .sotoon > .p1 {
+    transition: 0.5s;
+    transition-delay: 0s;
+
+    top: -30px;
+    right: 20px;
+}
+
+.items > .big_menu > .sotoon > .p2 {
+    transition: 0.5s;
+    transition-delay: 0.1s;
+
+    top: -30px;
+    right: 20px;
+}
+
+
+.items > .big_menu > .sotoon > .p3 {
+    transition: 0.5s;
+    transition-delay: 0.2s;
+
+    top: -30px;
+    right: 20px;
+}
+
+.items > .big_menu > .sotoon > .p4 {
+    transition: 0.5s;
+    transition-delay: 0.3s;
+
+    top: 15px;
+    right: -40px;
+}
+
+.items > .big_menu > .sotoon > .p5 {
+    transition: 0.5s;
+    transition-delay: 0.4s;
+
+    top: 15px;
+    right: 90px;
+}
+
+.items > .big_menu > .sotoon > .p6 {
+    transition: 0.5s;
+    transition-delay: 0.5s;
+
+    top: 15px;
+    right: -40px;
+}
+
+.items > .big_menu > .sotoon > .p7 {
+    transition: 0.5s;
+    transition-delay: 0.6s;
+
+    top: 15px;
+    right: 90px;
+}
+
+.items > .big_menu > .sotoon > .p8 {
+    transition: 0.5s;
+    transition-delay: 0.7s;
+
+    top: 15px;
+    right: -40px;
+}
+
+.items > .big_menu > .sotoon > .p9 {
+    transition: 0.5s;
+    transition-delay: 0.8s;
+
+    top: 50px;
+    right: 20px;
+}
+
+.items > .big_menu > .sotoon > .p10 {
+    transition: 0.5s;
+    transition-delay: 0.9s;
+
+    top: 50px;
+    right: 20px;
+}
+
+.items > .big_menu > .sotoon > .p11 {
+    transition: 0.5s;
+    transition-delay: 1s;
+
+    top: 50px;
+    right: 20px;
+}
